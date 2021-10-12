@@ -1,0 +1,20 @@
+#Adobe Audition
+*.pkf
+
+#UTAU
+*.frq
+*.mrq
+*.llsm
+*.pmk
+*.vs4ufrq
+*.frc
+*.dio
+
+#Deepvocal
+*.DVModel
+*-log.txt
+SKC
+SKI
+SKC_1
+SKC_2
+*.sksd
