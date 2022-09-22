@@ -9,6 +9,7 @@
 *.vs4ufrq
 *.frc
 *.dio
+*.uspec
 
 #Deepvocal
 *.DVModel
