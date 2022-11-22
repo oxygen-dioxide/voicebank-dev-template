@@ -32,4 +32,6 @@ SKC_2
 
 #Binary Archive
 *.7z
+*.zip
+*.rar
 *.exe
