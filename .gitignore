@@ -1,15 +1,19 @@
 #Adobe Audition
 *.pkf
 
-#UTAU
-*.frq
-*.mrq
-*.llsm
-*.pmk
-*.vs4ufrq
-*.frc
+#UTAU Engines
+*.ctspec
+*.d4c
 *.dio
+*.frc
+*.frt
+*.frq
+*.llsm
+*.mrq
+*.pkf
+*.pmk
 *.uspec
+*.vs4ufrq
 
 #Deepvocal
 *.DVModel
@@ -19,3 +23,13 @@ SKI
 SKC_1
 SKC_2
 *.sksd
+
+#VocalSharp
+*.scep
+*.vssf
+*.vsdx
+*.vsdxindex
+
+#Binary Archive
+*.7z
+*.exe
