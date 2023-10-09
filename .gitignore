@@ -18,6 +18,8 @@
 #UTAU related tools
 $read
 *.setParam-Scache
+*.lbp
+*.lbp.caches/*
 
 #Deepvocal
 *.DVModel
