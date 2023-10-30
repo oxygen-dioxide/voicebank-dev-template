@@ -1,0 +1,14 @@
+{
+    "yaml.schemas": {
+        "schemas/character-schema.json": ["character.yaml"],
+        "schemas/dictionary-schema.json": [
+            "arpasing.yaml", 
+            "de_vccv.yaml", 
+            "french.yaml", 
+            "german.yaml", 
+            "envccv.yaml", 
+            "zhcvv.yaml", 
+            "en-xsampa.yaml"
+        ]
+    }
+}

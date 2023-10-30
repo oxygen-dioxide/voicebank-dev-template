@@ -1,2 +1,9 @@
 # voicebank-dev-template
-GitHub开源采样音源（utau/deepvocal）开发模板，程序员向
+A template for concatenative singing synthesis (UTAU, Deepvocal, etc.) voicebank development.
+
+## Features
+- linting and validation for OpenUtau `character.yaml` and yaml dictionaries.
+- `.gitignore` for publishing on GitHub
+
+## Usage
+See [wiki](wiki) for usage.

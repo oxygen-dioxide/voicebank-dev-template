@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Yaml dictionary for certain OpenUtau phonemizers",
+    "type": "object",
+    "additionalProperties": true,
+    "properties": {
+        "symbols": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "symbol": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": [
+                            "vowel",
+                            "consonant",
+                            "stop",
+                            "affricate",
+                            "aspirate",
+                            "liquid",
+                            "nasal",
+                            "fricative",
+                            "semivowel"
+                        ]
+                    }
+                },
+                "required": [
+                    "symbol",
+                    "type"
+                ]
+            }
+        },
+        "entries": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "grapheme": {
+                        "type": "string"
+                    },
+                    "phonemes": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": [
+                    "grapheme",
+                    "phonemes"
+                ]
+            }        
+        }
+    },
+    "required": [
+        "symbols",
+        "entries"
+    ]
+}
