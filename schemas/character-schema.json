@@ -5,7 +5,17 @@
     "properties": {
         "text_file_encoding": {
             "description": "The encoding used to read character.txt, prefix.map and oto.ini",
-            "type": "string"
+            "type": "string",
+            "examples": [
+                "utf-8",
+                "us-ascii",
+                "shift_jis",
+                "gb2312",
+                "big5",
+                "ks_c_5601-1987",
+                "windows-1252",
+                "macintosh"
+            ]
         },
         "name": {
             "description": "The name of the voicebank",
@@ -93,7 +103,11 @@
         "singer_type": {
             "description": "The type of the voicebank",
             "type": "string",
-            "enum": ["utau", "enunu", "diffsinger"]
+            "enum": [
+                "utau",
+                "enunu",
+                "diffsinger"
+            ]
         },
         "image": {
             "description": "relative path to the icon of the voicebank",
@@ -125,7 +139,54 @@
         },
         "default_phonemizer": {
             "description": "The default phonemizer of the voicebank",
-            "type": "string"
+            "type": "string",
+            "examples": [
+                "OpenUtau.Plugin.Builtin.GermanDiphonePhonemizer",
+                "OpenUtau.Plugin.Builtin.GermanVCCVPhonemizer",
+                "OpenUtau.Core.DefaultPhonemizer",
+                "OpenUtau.Core.DiffSinger.DiffSingerPhonemizer",
+                "OpenUtau.Core.DiffSinger.DiffSingerEnglishPhonemizer",
+                "OpenUtau.Core.DiffSinger.DiffSingerPortuguesePhonemizer",
+                "OpenUtau.Core.DiffSinger.DiffSingerRhythmizerPhonemizer",
+                "OpenUtau.Core.DiffSinger.DiffSingerRussianPhonemizer",
+                "OpenUtau.Plugin.Builtin.ArpasingPhonemizer",
+                "OpenUtau.Plugin.Builtin.ENtoJAPhonemizer",
+                "OpenUtau.Plugin.Builtin.EnglishVCCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.EnXSampaPhonemizer",
+                "OpenUtau.Core.Enunu.EnunuPhonemizer",
+                "OpenUtau.Core.Enunu.EnunuEnglishPhonemizer",
+                "OpenUtau.Plugin.Builtin.EnunuOnnxPhonemizer",
+                "OpenUtau.Plugin.Builtin.EnunuOnnxEnglishPhonemizer",
+                "OpenUtau.Plugin.Builtin.SpanishMakkusanPhonemizer",
+                "OpenUtau.Plugin.Builtin.SpanishSyllableBasedPhonemizer",
+                "OpenUtau.Plugin.Builtin.EStoJAPhonemizer",
+                "OpenUtau.Plugin.Builtin.SpanishVCCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.FrenchCVVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.FrenchCMUSphinxPhonemizer",
+                "OpenUtau.Plugin.Builtin.FrenchVCCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.ItalianCVVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.ItalianSyllableBasedPhonemizer",
+                "OpenUtau.Plugin.Builtin.JapaneseCVVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.JapaneseVCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer",
+                "OpenUtau.Plugin.Builtin.KoreanCBNNPhonemizer",
+                "OpenUtau.Plugin.Builtin.KoreanCVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.KoreanCVCCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.KoreanCVVCStandardPronunciationPhonemizer",
+                "OpenUtau.Plugin.Builtin.KoreanVCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.PolishCVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.BrazilianPortugueseCVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.RussianCVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.RussianVCCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.VietnameseCVVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.VietnameseVCVPhonemizer",
+                "OpenUtau.Plugin.Builtin.VietnameseVINAPhonemizer",
+                "OpenUtau.Core.Vogen.VogenMandarinPhonemizer",
+                "OpenUtau.Core.Vogen.VogenYuePhonemizer",
+                "OpenUtau.Plugin.Builtin.ChineseCVVMonophonePhonemizer",
+                "OpenUtau.Plugin.Builtin.ChineseCVVCPhonemizer",
+                "OpenUtau.Plugin.Builtin.PresampSamplePhonemizer"
+            ]
         },
         "subbanks": {
             "description": "The subbanks of the voicebank for different pitch and voice color",
@@ -155,7 +216,7 @@
                         }
                     }
                 }
-            }       
+            }
         }
     },
     "required": []
