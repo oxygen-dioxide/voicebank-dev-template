@@ -2,7 +2,7 @@
 A template for concatenative singing synthesis (UTAU, Deepvocal, etc.) voicebank development.
 
 ## Features
-- linting and validation for OpenUtau `character.yaml` and yaml dictionaries.
+- Linting and validation for OpenUtau `character.yaml` and OpenUtau yaml dictionaries.
 - `.gitignore` for publishing on GitHub
 
 ## Usage

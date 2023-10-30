@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "character.txt for OpenUtau, including the basic informations of a voicebanks",
+    "description": "character.txt for OpenUtau, including the basic informations of a voicebank",
     "type": "object",
     "properties": {
         "text_file_encoding": {
@@ -22,7 +22,7 @@
             "type": "string"
         },
         "localized_names": {
-            "description": "display localized names for the user's selected singer name display language",
+            "description": "Localized names for the user's selected singer name display languages",
             "type": "object",
             "properties": {
                 "en-US": {
@@ -110,7 +110,7 @@
             ]
         },
         "image": {
-            "description": "relative path to the icon of the voicebank",
+            "description": "Relative path to the icon of the voicebank",
             "type": "string"
         },
         "author": {
