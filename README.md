@@ -6,4 +6,4 @@ A template for concatenative singing synthesis (UTAU, Deepvocal, etc.) voicebank
 - `.gitignore` for publishing on GitHub
 
 ## Usage
-See [wiki](wiki) for usage.
+See [wiki](https://github.com/oxygen-dioxide/voicebank-dev-template/wiki) for usage.
