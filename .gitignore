@@ -21,6 +21,9 @@ $read
 *.lbp
 *.lbp.caches/*
 
+#OpenUtau
+errors.txt
+
 #Deepvocal
 *.DVModel
 *-log.txt
