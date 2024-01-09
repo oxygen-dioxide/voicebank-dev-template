@@ -8,10 +8,15 @@
 *.frc
 *.frt
 *.frq
+*.harvest
+*.lessaudio
 *.llsm
 *.mrq
+*.pitchtier
 *.pkf
+*.platinum
 *.pmk
+*.star
 *.uspec
 *.vs4ufrq
 
