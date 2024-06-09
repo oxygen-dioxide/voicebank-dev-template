@@ -16,6 +16,7 @@
 *.pkf
 *.platinum
 *.pmk
+*.sc.npz
 *.star
 *.uspec
 *.vs4ufrq
