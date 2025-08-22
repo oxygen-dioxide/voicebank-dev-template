@@ -22,7 +22,7 @@
 *.vs4ufrq
 
 #UTAU related tools
-$read
+\$read
 *.setParam-Scache
 *.lbp
 *.lbp.caches/*
@@ -50,6 +50,3 @@ SKC_2
 *.zip
 *.rar
 *.exe
-
-*.bat
-*.ps1
